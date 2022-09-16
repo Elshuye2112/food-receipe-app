@@ -92,7 +92,7 @@ usertokenContents,
 });
 
 // Login Request Handler
-app.post("/Login", async (req, res) => {
+app.post("/login", async (req, res) => {
   // get request input
   const { email, password } = req.body.input;
 
